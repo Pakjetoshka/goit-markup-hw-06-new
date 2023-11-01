@@ -116,15 +116,13 @@ address {
 
 /* ----------------------- Header ----------------------- */
 .hat {
-    padding-top: 16px;
-    padding-bottom: 16px;
     border-bottom: 1px solid var(--cornflower);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
                 0px 1px 1px rgba(46, 47, 66, 0.16), 
                 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header .container {
+.hat .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -281,7 +279,7 @@ address {
     background-color: var(--navy-blue);
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
                                       rgba(46, 47, 66, 0.70)), 
-                                      url(../images/people-office.jpg);
+                                      url(../images/formob/people-office-formob-x1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -294,7 +292,7 @@ address {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
                                           rgba(46, 47, 66, 0.70)), 
-                                          url(../images/office-mob-2x.jpg);
+                                          url(../images/formob/people-office-x2.png);
     }
 }
 
@@ -910,7 +908,7 @@ fill: var(--cloud);
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
                                           rgba(46, 47, 66, 0.70)), 
-                                          url(../images/office-tab.jpg);
+                                          url(../images/fortab/people-office-x1.png);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -919,7 +917,7 @@ fill: var(--cloud);
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
                                               rgba(46, 47, 66, 0.70)), 
-                                              url(../images/office-tab-2x.jpg);
+                                              url(../images/fortab/people-office-x2.png);
         }
     }
 
@@ -1024,7 +1022,7 @@ fill: var(--cloud);
         margin: 0 auto;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70),
                                           rgba(46, 47, 66, 0.70)), 
-                                          url(../images/office-desk.jpg);
+                                          url(../images/fordesk/people-office-x1.png);
     }
     
     @media (min-device-pixel-ratio: 2),
@@ -1033,7 +1031,7 @@ fill: var(--cloud);
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.70), 
                                               rgba(46, 47, 66, 0.70)), 
-                                              url(../images/office-desk-2x.jpg);
+                                              url(../images/fordesk/people-office-x2.png);
         }
     }
 
